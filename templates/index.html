@@ -1,0 +1,13 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Weather App</title>
+    </head>
+    <body>
+        <h1>Weather in {{ data['location']['name'] }}</h1>
+        <p>Temperature: {{ data['current']['temp_c'] }}°C</p>
+        <p>Condition: {{ data['current']['condition']['text'] }}</p>
+    </body>
+    </html>
+    
